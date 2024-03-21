@@ -1,0 +1,81 @@
+main {
+    padding-left: 200px;
+    margin-top: 2em;
+}
+
+/* CONTENEDOR VACACIONES */
+
+.vacaciones {
+    margin: auto;
+    width: 50em;
+    background: #0081c6;
+    padding: 2em 3em;
+    border-radius: 3em;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 0.4em;
+    border-radius: 2em;
+    border: none;
+}
+
+.asing_empleado {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1em;
+}
+
+.asing_empleado > h3 {
+    margin: 0;
+}
+
+.asing_empleado input[type="text"] {
+    width: 30em;
+}
+
+.select1{
+    padding: 0.4em;
+    border-radius: 2em;
+    border: none;
+    width: 20em;
+}
+
+/* BOTON REGISTRAR VACACIONES */ 
+
+.btn1_der {
+    padding: 1em 3em;
+    background: #FFF;
+    border: none;
+    border-radius: 2em;
+    color: #0081c6;
+    font-weight: bold;
+    font-size: 1em;
+    margin: auto;
+    display: block;
+    margin-top: 0em;
+    margin-left: 70%;
+}
+
+.btn1_der:hover {
+    background: #7fcdf7;
+    cursor: pointer;
+    color: white;
+}
+
+/* TABLA VACACIONES */
+
+.lista1 {
+    width: 100%;
+}
+
+.lista1 td {
+    padding: 1em;
+    border-bottom: solid 1px white;
+}
+
+.lista1 img {
+    width: 35px;
+    /* height: 30px; */
+}

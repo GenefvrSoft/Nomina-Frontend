@@ -1,0 +1,79 @@
+main {
+    padding-left: 200px;
+    margin-top: 2em;
+}
+
+/* CONTENEDOR DE EDITAR EMPLEADO */
+
+.editempleado {
+    margin: auto;
+    width: 50em;
+    background: #0081c6;
+    padding: 2em 3em;
+    border-radius: 3em;
+    color: white;
+}
+
+.editempleado h1{
+    color: white;
+}
+
+.datos > div {
+    margin-bottom: 1em;
+}
+
+/* FORMULARIO */
+
+form {
+    width: 40em;
+    margin: auto;
+}
+
+form > label {
+    width: 10em;
+    display: inline-block;
+    padding-bottom: 1em;
+}
+
+form input[type="text"], form input[type="date"] {
+    display: inline-block;
+    width: 30em;
+}
+
+input[type="text"], input[type="date"]  {
+    padding: 0.4em;
+    border-radius: 2em;
+    border: none;
+}
+
+
+label.option {
+    width: 5em;
+    margin-left: 2.5em
+}
+
+input.option {
+    margin-right: 2.5em;
+}
+
+/* BOTON EDITAR EMPLEADO */
+
+.btn1 {
+    padding: 1em 3em;
+    background: #FFF;
+    border: none;
+    border-radius: 2em;
+    color: #0081c6;
+    font-weight: bold;
+    font-size: 1em;
+    margin: auto;
+    display: block;
+    margin-top: 2em;
+}
+
+.btn1:hover {
+    background: #7fcdf7;
+    cursor: pointer;
+    color: white;
+}
+

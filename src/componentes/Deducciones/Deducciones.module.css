@@ -1,0 +1,82 @@
+main {
+    padding-left: 200px;
+    margin-top: 2em;
+}
+
+/* DEDUCCIONES A EMPLEADO ADMIN */
+
+.deducciones {
+        margin: auto;
+        width: 50em;
+        background: #0081c6;
+        padding: 2em 3em;
+        border-radius: 3em;
+        color: white;
+    }
+
+input[type="text"] {
+        padding: 0.4em;
+        border-radius: 2em;
+        border: none;
+    }
+    
+.asing_empleado {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1em;
+}
+
+.asing_empleado > h3 {
+    margin: 0;
+}
+
+.asing_empleado input[type="text"] {
+    width: 30em;
+}
+
+.select1{
+    padding: 0.4em;
+    border-radius: 2em;
+    border: none;
+    width: 20em;
+}
+
+
+/* CHECKBOX MARCAR DEDUCCIONES */
+
+.deducciones p {
+    display: -webkit-inline-box;
+    padding: 1em;
+    width: 45%;
+}
+
+.deducciones > section{
+    display: table;
+}
+
+.deducciones input[type="checkbox"] {
+    margin-right: 40%;
+}
+
+
+/*  BOTON REGISTRAR DEDUCCIONES */
+
+.btn1 {
+    padding: 1em 3em;
+    background: #FFF;
+    border: none;
+    border-radius: 2em;
+    color: #0081c6;
+    font-weight: bold;
+    font-size: 1em;
+    margin: auto;
+    display: block;
+    margin-top: 2em;
+}
+    
+.btn1:hover {
+    background: #7fcdf7;
+    cursor: pointer;
+    color: white;
+}

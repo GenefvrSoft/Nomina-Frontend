@@ -1,0 +1,42 @@
+/* CONTAINER DE OCULTAR EMPLEADO */
+
+.container_ocultar {
+    height: 200px;
+    padding: 1rem 0;
+    background-color: #0081c6;
+    border-radius: 3em;
+    /* display: flex; */
+    /* flex-direction: column; */
+    color: white;
+    margin-top: 15%;
+    text-align: center;
+    /* margin: auto; */
+    margin-left: 25%;
+    margin-right: 25%
+
+}
+
+.container_ocultar h2{
+    margin-top: 2em!important;
+    margin-bottom: 1em!important;
+}
+
+/* BOTONES DE OCULTAR EMPLEADO */
+
+.btn2 {
+    padding: 0.5em 2em;
+    background: #FFF;
+    border: none;
+    border-radius: 2em;
+    color: #0081c6;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 1em;
+    margin-top: 0;
+}
+
+.btn2:hover {
+    background: #7fcdf7;
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,28 @@
+main {
+    padding-left: 200px;
+}
+
+/* INFORMACION PERFIL USUARIO */ 
+
+.perfil {
+    padding: 0.5em 2em;
+    /* background: rgb(167, 161, 161); */
+    margin: 1.4em auto;
+    width: 70%;
+    background: #0081c6;
+    border-radius: 3em;
+    color: white;
+}
+
+.perfil > h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.perfil p {
+    margin-bottom: 1.4em;
+}
+
+/* h2 {
+    /* margin-top: 2em; 
+} */

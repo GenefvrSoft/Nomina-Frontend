@@ -1,0 +1,78 @@
+main {
+    padding-left: 200px;
+    margin-top: 2em;
+}
+
+/* CONTENEDOR ASIGNAR DEPARTAMENTO */
+
+.reg_vacaciones {
+        margin: auto;
+        width: 50em;
+        background: #0081c6;
+        padding: 2em 3em;
+        border-radius: 3em;
+        color: white;
+    }
+
+input[type="text"] {
+        padding: 0.4em;
+        border-radius: 2em;
+        border: none;
+    }
+    
+.asing_empleado {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1em;
+}
+
+.asing_empleado > h3 {
+    margin: 0;
+}
+
+.asing_empleado input[type="number"] {
+    width: 30em;
+}
+
+.select1{
+    padding: 0.4em;
+    border-radius: 2em;
+    border: none;
+    width: 20em;
+}
+
+.reg_vacaciones section {
+    margin: 2em 0 3em;
+}
+
+.reg_vacaciones p {
+    display: inline;
+    padding: 1em;
+    width: 45%;
+}
+
+.reg_vacaciones > section{
+    display: table;
+}
+
+/*  BOTON REGISTRAR VACACIONES */
+
+.btn1 {
+    padding: 1em 3em;
+    background: #FFF;
+    border: none;
+    border-radius: 2em;
+    color: #0081c6;
+    font-weight: bold;
+    font-size: 1em;
+    margin: auto;
+    display: block;
+    margin-top: 2em;
+}
+    
+.btn1:hover {
+    background: #7fcdf7;
+    cursor: pointer;
+    color: white;
+}

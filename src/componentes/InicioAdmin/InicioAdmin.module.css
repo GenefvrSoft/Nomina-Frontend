@@ -1,0 +1,33 @@
+main {
+    padding-left: 200px;
+}
+
+/* BIENVENIDA ADMINISTRADOR INICIO */ 
+
+.container h1 {
+    margin-left: 1em;
+}
+
+/* CONTENEDORES REPORTES, EVENTOS, ALERTAS */ 
+
+.reportes {
+    padding: 1em 2em;
+    background: #0081c6;
+    margin: 2.4em auto;
+    color: white;
+    width: 80%;
+    border-radius: 2em;
+}
+
+.reportes h2 {
+    margin-bottom: 10px;
+}
+
+.reportes h1{
+    color: #0081c6;
+    margin-left: 2em;
+}
+
+.reportes p {
+    margin-bottom: 5px;
+}

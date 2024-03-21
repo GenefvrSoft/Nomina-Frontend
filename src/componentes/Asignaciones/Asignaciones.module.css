@@ -1,0 +1,112 @@
+main {
+    padding-left: 200px;
+    margin-top: 2em;
+}
+
+/* ASIGNACIONES A EMPLEADO ADMIN */
+
+.asignaciones {
+    margin: auto;
+    width: 50em;
+    background: #0081c6;
+    padding: 2em 3em;
+    border-radius: 3em;
+    color: white;
+}
+
+.asignaciones h2{
+    margin: 1.5em 0;
+}
+
+input[type="text"] {
+    padding: 0.4em;
+    border-radius: 2em;
+    border: none;
+}
+
+.asing_empleado {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1em;
+}
+
+.asing_empleado > h3 {
+    margin: 0;
+}
+
+.asing_empleado input[type="text"] {
+    width: 30em;
+}
+
+.select1{
+    padding: 0.4em;
+    border-radius: 2em;
+    border: none;
+    width: 20em;
+}
+
+/*  PRIMAS  */
+
+.option_p > section {
+    display: flex;
+    flex-direction: column;
+}
+
+.option_p p , .option_b p {
+    display: inline-flex;
+    width: 170px;
+}
+
+.option_p div {
+    display: flex;
+    margin-top: 2em;
+}
+
+.option_p > p {
+    display: inline-flex;
+    width: 15%;
+    margin-left: 5em;
+}
+
+input[type="checkbox"] {
+    margin-right: 5em;
+}
+
+/* BONOS */
+
+.option_b div {
+    display: flex;
+    align-items: center;
+}
+
+.option_b > p {
+    width: 15%;
+    margin-left: 5em;
+    display: inline-flex;
+}
+
+.option_b input[type="checkbox"] {
+    margin-left: 2em;
+}
+
+/* BOTON REGISTRAR ASIGNACIONES */
+
+.btn1 {
+    padding: 1em 3em;
+    background: #FFF;
+    border: none;
+    border-radius: 2em;
+    color: #0081c6;
+    font-weight: bold;
+    font-size: 1em;
+    margin: auto;
+    display: block;
+    margin-top: 2em;
+}
+
+.btn1:hover {
+    background: #7fcdf7;
+    cursor: pointer;
+    color: white;
+}

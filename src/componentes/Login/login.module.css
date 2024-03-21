@@ -1,0 +1,57 @@
+/* Contenedor Formulario */ 
+
+.container_login {
+    margin: auto;
+    margin-top: 12%;
+    margin-left: -10%;
+    /* width: 30%; */
+}
+
+.container_login2{
+    height: 300px;
+    padding: 0;
+    background-color: #0081c6;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    width: 50%;
+}
+
+.container_login2 > img {
+    height: 70px;
+    width: 70px;
+    margin-top: -1em;
+    margin-bottom: 1em
+}
+
+.container_login2 h2 {
+    margin: 1em;
+}
+
+.inputL {
+    padding: 0.4em;
+    border-radius: 1em;
+    border: none;
+    width: 30em;
+    margin-bottom: 1rem;
+}
+
+/* Boton Ingresar */
+.btn2 {
+    padding: 0.5em 2em;
+    background: #FFF;
+    border: none;
+    border-radius: 2em;
+    color: #0081c6;
+    font-weight: bold;
+    font-size: 1em;
+    transition: .3s ease all;
+}
+
+.btn2:hover {
+    background: #7fcdf7;
+    cursor: pointer;
+    color: white;
+}

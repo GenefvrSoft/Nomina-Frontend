@@ -1,0 +1,28 @@
+.header {
+    background: #0081c6;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu_der {
+    list-style: none;
+}
+
+.menu_der_option > a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu_der_option {
+    padding-bottom: 0.8em;
+}
+
+.menu {
+    padding-top: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

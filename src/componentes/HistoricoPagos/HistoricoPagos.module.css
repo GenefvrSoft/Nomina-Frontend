@@ -1,0 +1,70 @@
+main {
+    margin-top: 2em;
+    padding-left: 200px;
+}
+
+.btn1 {
+    padding: 1em 3em;
+    background: #FFF;
+    border: none;
+    border-radius: 2em;
+    color: #0081c6;
+    font-weight: bold;
+    font-size: 1em;
+    margin: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.btn1:hover {
+    background: #7fcdf7;
+    cursor: pointer;
+    color: white;
+}
+
+.der {
+    margin: 1em 35em;
+
+}
+
+
+/* */
+.pagos{
+    margin: auto;
+    width: 50em;
+    background: #0081c6;
+    padding: 2em 3em;
+    border-radius: 3em;
+    color: white;
+}
+
+.pagos h2{
+    margin-bottom: 1em;
+}
+
+.derbotones {
+    display: flex;
+    width: 65%;
+    margin-left: 16em;
+    gap: 1px;
+}
+
+.list ul{
+    list-style: none;
+}
+
+.list li {
+    padding: 5px;
+}
+
+.pag {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    align-items: center;
+    font-weight: bold;
+}
+
+.pag p {
+    margin: 1em;
+}
